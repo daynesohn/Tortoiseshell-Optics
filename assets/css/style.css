@@ -115,7 +115,7 @@ nav p {
 
 footer {
   max-width: 960px;
-  margin: auto;
+  margin: 4rem auto auto auto;
   align: center;
   background-color: azure;
   padding: 4rem 3rem;
