@@ -47,6 +47,10 @@ nav p {
   padding: 1rem 2rem;
 }
 
+.hidden {
+  display: none;
+}
+
 .flex-container {
   display: flex;
   justify-content: flex-end;
@@ -149,5 +153,77 @@ footer {
     margin-right: 2rem;
     padding: 0.75rem 4rem;
     font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+  .headline {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0;
+    margin: 8rem 0 0 0;
+  }
+
+  .headline p {
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+
+  .icon-container {
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    padding: 1.54rem;
+    margin: 0;
+  }
+
+  .icon p {
+    font-size: 0.77rem;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .info {
+    max-width: 100%;
+  }
+
+  .info p {
+    font-size: 0.77rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  .footer-container p {
+    display: none;
   }
 }
