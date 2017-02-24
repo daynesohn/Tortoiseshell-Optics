@@ -63,3 +63,72 @@ nav p {
   display: inline-block;
   margin-right: -2rem;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.icon p {
+  padding: 0;
+  margin: 0;
+}
+
+.icon img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+#paper-icon img {
+  width: 3.5rem;
+}
+
+.info-container {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  max-width: 35%;
+}
+
+.info h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetBlue;
+  color: white;
+}
+
+footer {
+  max-width: 960px;
+  margin: auto;
+  align: center;
+  background-color: azure;
+  padding: 4rem 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container img {
+  height: 1.5rem;
+  padding-right: 1.5rem;
+}
